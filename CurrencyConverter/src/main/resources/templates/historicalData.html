@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Historical Exchange Rate</title>
+    <link rel="stylesheet" type="text/css" href="/css/historicalDataStyle.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script> <!-- Chart.js -->
+</head>
+<body>
+    <h1>Historical Exchange Rate</h1>
+
+    <!-- Dropdown for Currency Selection -->
+    <label for="base">Base Currency:</label>
+    <select id="base"></select>
+
+    <label for="target">Target Currency:</label>
+    <select id="target"></select><br>
+
+    <label for="startDate">Start Date:</label>
+    <input type="date" id="startDate" required>
+
+    <label for="endDate">End Date:</label>
+    <input type="date" id="endDate" required><br>
+
+    <button onclick="fetchHistoricalData()">Get Historical Data</button>
+    
+<div style="width: 100%; max-width: 2500px; margin-top:auto;height:400px;max-height:2500px">
+    <canvas id="currencyChart"></canvas>
+</div>
+
+    <br>
+    <a href="/">Back to Home</a>
+
+    <script src="/js/historicalDataScript.js"></script> <!-- External JavaScript -->
+</body>
+</html>

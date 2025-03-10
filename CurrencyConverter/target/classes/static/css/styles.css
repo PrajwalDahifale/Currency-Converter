@@ -1,0 +1,132 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #1E1E2F;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #454545;
+    padding: 15px;
+}
+
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+    color: #1E1E2F;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.hero h1 {
+    font-size: 36px;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #ccc;
+}
+
+/* Converter Section */
+.converter {
+    text-align: center;
+    padding: 40px 20px;
+     margin-top:-40px;
+}
+
+.converter-box {
+    background: #2C2C3A;
+   
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+    text-align: left;
+    
+}
+
+.converter-box label {
+    display: block;
+    margin-top: 10px;
+    color:white;
+}
+
+.converter-box input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: none;
+    border-radius: 5px;
+}
+
+.converter-box button {
+    background: #007BFF;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    margin-top: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.converter-box button:hover {
+    background: #0056b3;
+}
+
+
+.All{
+	/*margin-top:20px;
+	margin-left:70px;*/
+	background:#2C2C3A;
+	  padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+    text-align: left;
+    display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width:1350px;
+}
+
+.All h3{
+	margin-left:60px;
+	margin-top:-30px;
+	color :white;
+	
+}
+
+#Euro{
+	
+	margin-left:550px;
+	margin-top:-50px;
+	
+}
+.currency-row {
+      background: white;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 15px;
+      border-radius: 8px;
+      margin-bottom: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    .currency-name {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .flag-icon {
+      font-size: 24px;
+    }
+    .percentage {
+      color: #198754;
+      font-weight: bold;
+    }
+  

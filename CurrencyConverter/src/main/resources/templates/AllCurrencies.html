@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>All Currency Exchange Rates</title>
+    <link rel="stylesheet" type="text/css" href="/css/AllCurrenciesStyles.css">
+    
+</head>
+<body>
+    <h1>All Currency Exchange Rates</h1>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Currency</th>
+                <th>Exchange Rate</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr th:each="entry : ${currencies}">
+                <td th:text="${entry.key}"></td>
+                <td th:text="${entry.value}"></td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <a id="an" href="/">Back to Home</a>
+</body>
+</html>
